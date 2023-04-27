@@ -73,9 +73,19 @@ patch        y -интексировать
 		d не индексировать этот и последуюшие куски
 
 git log --oneline покажет сокращенно историю
+git log -- todo.md перейти в файл todo.md
 git checkout <хеш> переключиться на такой-то коммит
-git checkout main(master)
+git checkout main(master) перейти в главную ветку
+git switch переключиться на другую ветку
 git branch покажет на какой мы сейчас ветке
+
+
+git branch bugFix - coздаем ветку с именем bugFix 
+git checkout bugFix - переходим в эту ветку
+
+
+
+
 
 Это быстрый способ переключиться на главную ветку илии перейти на коммит с хешем
 hexlet-git git:(main/master)
@@ -83,7 +93,7 @@ hexlet-git git: <хеш> в который мы хотим перейти
 
 logout завершить процесс
 
+git log --graph вывести все коммиты проекта
 
-
-
-
+git reset --hard HEAD~1 взять голову и удалить последний коммит
+git reset --hard HEAD~2 взять глову и удалить 2 последних коммита

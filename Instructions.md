@@ -159,3 +159,10 @@ git pull/git merge/git rebase
 git commit
 
 git push
+
+
+
+git cherry-pick <commit1> <commit2> <> (хотим копировать несколько коммитов в место где сейчас находимся)
+git cherry-pick C1 C3 C7 скопирует 3 указанных коммита 
+
+git rebase -i HEAD~3 копирует коммиты начиная с 3 коммитов от HEAD

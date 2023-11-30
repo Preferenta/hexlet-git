@@ -1,0 +1,8 @@
+1. Создаю на гитхаб пустой репо test
+2. Ввожу в терминале 
+git clone https://...
+3. cd test
+4. echo info >> README.md
+5. git add README.md
+6. git commit -m 'add readme'
+7. git push

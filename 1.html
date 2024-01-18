@@ -1,0 +1,27 @@
+1. Установка git c загрузчика(bynary installer(https://git-scm.com/download/mac))
+/ установка git XCode(mac tool)/ brew
+
+2. Устанавливаю глобальные настройки(делаем это один раз)
+git config --global user.name "preferenta"
+git config --global user.email "preferenta@gmail.com"
+git config -l (проверяем сохранились ли изменения)
+
+3. Работа с GitHub
+Предпочтителен универсальный способ работы через https (а не  ssh)
+                вариант 1
+создала репозиторий на гитхабе(ПРОЕКТА ЕЩЕ НЕТ!!!)
+в терминале перехожу в ту папку куда хочу клонировать созданный репозиторий на гитхабе
+и ввожу команду
+git clone https-адрес
+(При необходимости создаю токен для авторизации) и повторяю команду клонирования репозитория (git clone https-адрес)
+
+git init (создала папку с расширением .git)
+
+            git touch index.html - создала в консоли файл index.html
+git status
+git add index.html
+git commit -m "new commit"
+git remote add origin https://github.com/Preferenta/my7-3-22.git
+git push -u origin master (и только после этой команды наш проект отобразится на гитхабе)
+
+                    вариант 2 (ЕСТЬ ПРОЕКТ НА КОМПЬЮТЕРЕ)

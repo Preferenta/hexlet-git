@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>This project is created to check and make project and push it to GitHub.
+        The main idea is to learn work with ready and full project, made and saves on local laptop. </p>
+<br>
+<p>
+        1. У меня есть созданный проект на компьютере(в папке с файлами)
+        2. Перехожу в гитхаб и создаю репозиторий
+        3. Перехожу в терминале в папку своего проекта  !!
+        4. git init (инизиализирую репозиторий  и создается папка с расширением .git)
+        5. git status (проверяем состояние моих файлов)
+        6. git add index.html style.css (добавила файлы)
+        7. git commit -m "1st commit"
+        8. git remote add origin https://github.com/Preferenta/Test_2.git (здесь мы добавляем ссылку https, а не SSH)
+        (эта команда используется для создания записи о новом подключении к удаленному репозиторию.
+        Эта команда прописывается один раз)
+        9. git push -u origin master (и только после этой команды проект загрузится на гитхаб)
+        Бывает, что срок действия токена истек. Его можно продлить (но работать все равно не будет). 
+        Поэтому создаю новый токен(даю ему допуски: 
+        - repo;
+        - admin:org
+        - admin:repo_hook;
+        )
+        И при выполнении команды git push -u origin master 
+        в качестве подтверждения логина пишу preferenta, 
+        в качестве пароля ввожу скопированный действующий токен (свежий токен заменяет истекший).
+
+        Бывает что нужно заново войти в терминал и проиндексировать файлы.
+</p>
+
+<p>
+1. Переименовала проект на компьютере и на гитхабе. Исследую, смогу ли я беспрепятственно работать с репозиторием.    
+</p>
+</body>
+</html>
